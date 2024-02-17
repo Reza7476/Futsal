@@ -1,0 +1,17 @@
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Futsal.Services.deps.json
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Futsal.Services.dll
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Futsal.Services.pdb
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Futsal.Entities.dll
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Taav.Contarcts.dll
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Futsal.Entities.pdb
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\bin\Debug\net6.0\Taav.Contarcts.pdb
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.csproj.AssemblyReference.cache
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.AssemblyInfoInputs.cache
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.AssemblyInfo.cs
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.csproj.CoreCompileInputs.cache
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.csproj.CopyComplete
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.dll
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\refint\Futsal.Services.dll
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\Futsal.Services.pdb
+C:\Users\Reza\Desktop\FutsalManagment\Futsal\Futsal.Services\obj\Debug\net6.0\ref\Futsal.Services.dll

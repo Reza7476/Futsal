@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "c4ybnnWfgAdnbrpP/tP4idJzwR2YuFXjlhq8563YlB0=",
+  "Source": "Futsal.RestApi",
+  "BasePath": "_content/Futsal.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

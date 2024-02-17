@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Taav.Contarcts/1.0.0": {
+        "runtime": {
+          "Taav.Contarcts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Taav.Contarcts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

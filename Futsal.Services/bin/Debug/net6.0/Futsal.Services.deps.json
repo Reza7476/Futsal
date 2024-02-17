@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Futsal.Services/1.0.0": {
+        "dependencies": {
+          "Futsal.Entities": "1.0.0",
+          "Taav.Contarcts": "1.0.0"
+        },
+        "runtime": {
+          "Futsal.Services.dll": {}
+        }
+      },
+      "Futsal.Entities/1.0.0": {
+        "runtime": {
+          "Futsal.Entities.dll": {}
+        }
+      },
+      "Taav.Contarcts/1.0.0": {
+        "runtime": {
+          "Taav.Contarcts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Futsal.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Futsal.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Taav.Contarcts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
