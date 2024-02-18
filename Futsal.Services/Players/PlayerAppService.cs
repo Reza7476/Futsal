@@ -1,6 +1,7 @@
 ﻿using Futsal.Entities.Players;
 using Futsal.Services.Players.Contracts;
 using Futsal.Services.Players.Contracts.DTOs;
+using Futsal.Services.Teams.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,16 +13,18 @@ using Taav.Contarcts;
 namespace Futsal.Services.Players;
 public class PlayerAppService : PlayerServices
 {
-
+    private readonly TeamRepository _teamRepository;
 
 
     private readonly PlayerRepository _playerRepository;
     private readonly UnitOfWork _unitOfWork;
     public PlayerAppService(PlayerRepository playerRepository,
-        UnitOfWork unitOfWork)
+        UnitOfWork unitOfWork,
+        TeamRepository teamRepository)
     {
         this._playerRepository = playerRepository;
         _unitOfWork = unitOfWork;
+        _teamRepository = teamRepository;
     }
 
     public async Task Add(AddPlayerDto command)
@@ -50,7 +53,7 @@ public class PlayerAppService : PlayerServices
             throw new Exception("player not found");
 
         _playerRepository.Delete(player);
-        await _unitOfWork.Complete();   
+        await _unitOfWork.Complete();
     }
 
     public async Task Edit(int id, EditPlayerDto command)
@@ -70,12 +73,33 @@ public class PlayerAppService : PlayerServices
 
     }
 
-    public async Task<List<PlayerDto>> GetByFilter(int startAge, int endAge)
+    public async Task<List<PlayerDto>?> GetByAgeFilter(FilterAgePlayerDto command)
     {
         var players = await _playerRepository.GetAll();
-        
 
-        
+
+
+        List<PlayerDto> playerDtos = new();
+        foreach (var player in players)
+        {
+
+            var age = Age(player.BirthDate);
+            if (age >= command.StartAge && age < command.EndAge)
+            {
+                PlayerDto playerDto = new PlayerDto()
+                {
+                    Id = player.Id,
+                    Name = player.Name,
+                    BirthDate = player.BirthDate,
+                    PlayerRole = player.Role
+                };
+                playerDtos.Add(playerDto);
+
+            }
+
+        }
+
+        return playerDtos;
     }
 
 
@@ -83,10 +107,39 @@ public class PlayerAppService : PlayerServices
 
     public int Age(DateTime playerBirth)
     {
-        int a = DateTime.Now.Day - playerBirth.Day;
-
-
-        int age = a / 365;
+        TimeSpan a = DateTime.Now - playerBirth;
+        int age = (int)(a.TotalDays) / 365;
         return age;
+    }
+
+    public async Task AddPlayerToAteam(AddPlayerToTeamDto command)
+    {
+        var team = await _teamRepository.GetById(command.TeamId);
+
+        if (team == null)
+            throw new Exception("team not found");
+
+        var player = await _playerRepository.GetById(command.PlayerId);
+
+        if (player == null)
+
+            throw new Exception("player not found");
+        var teamPlayers = await _playerRepository.GetTeamPlayersByFilter(x => x.TeamId == command.TeamId);
+
+
+        if (teamPlayers.Count() >= 5)
+            throw new Exception("team closed");
+
+        if (player.Role == PlayerRole.KeepGoler)
+        {
+            if (teamPlayers.Where(x => x.Role == PlayerRole.KeepGoler).Count() >= 1)
+                throw new Exception("team has keepGoler");
+            player.TeamId = command.TeamId;
+        }
+        player.TeamId = command.TeamId;
+
+        await _unitOfWork.Complete();
+
+
     }
 }

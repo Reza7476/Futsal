@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {}
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "projectName": "Taav.Contarcts",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",

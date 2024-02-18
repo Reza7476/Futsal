@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xpzhBspUUWuGq4adw+mJQrGvPDdnxEcwI5oigiVATa2yQi7CpdUs9KMwSA+b6T27w0E1xCxGDZEvPOSJF+Ghlg==",
+  "dgSpecHash": "CUiZ0mWTgA0e2wpWriQIt+lUuPwfR/4eI8PqfbH6eRTUu8n87hHLWyJd6VDuEVs6/XgAro5x9iXKGoL+CvM9rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reza\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

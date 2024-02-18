@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {}
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
         "projectName": "Futsal.Entities",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
         "projectName": "Futsal.Persistence.EF",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Services\\Futsal.Services.csproj"
+              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Services\\Futsal.Services.csproj"
               }
             }
           }
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
         "projectName": "Futsal.RestApi",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.RestApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
+              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
               }
             }
           }
@@ -199,14 +199,14 @@
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
         "projectName": "Futsal.Services",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Services\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,11 +223,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj"
+              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj"
               },
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj"
+              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj"
               }
             }
           }
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
+    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "projectName": "Taav.Contarcts",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Taav.Contarcts\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Taav.Contarcts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",

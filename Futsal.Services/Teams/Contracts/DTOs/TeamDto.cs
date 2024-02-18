@@ -9,5 +9,4 @@ public class TeamDto
     public string Name { get; set; }
     public ColorDress ColorDressOrigin { get; set; }
     public ColorDress ColorDressNormal { get; set; }
-    public List<Player> Players { get; set; }
 }

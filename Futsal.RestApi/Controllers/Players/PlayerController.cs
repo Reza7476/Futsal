@@ -30,4 +30,14 @@ public class PlayerController : ControllerBase
     {
         await _plyareService.Delete(id);
     }
+    [HttpGet]
+    public async Task <List<PlayerDto>?> GetByAgeFilter([FromQuery]FilterAgePlayerDto command)
+    {
+        return await _plyareService.GetByAgeFilter(command);
+    }
+    [HttpPatch]
+    public async Task MentionPlayerToATeam(AddPlayerToTeamDto command)
+    {
+        await _plyareService.AddPlayerToAteam(command);
+    }
 }
