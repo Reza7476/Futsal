@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vEJ9Q4J8kvxMMktIFqGKVY8d4TOc0to0ws0rJoLpEXYJf7hLkpkc5c2LFfpTg1D+Pq0oWfFB/5n9r4ua+O1j5w==",
+  "dgSpecHash": "wBWrF3i/asXp4LZeJnJpDJ+jv8eLf79cx75ZKY0SKSkT/FCGO89QMpUEnDLTgKxZ0cE33AVOCabOU8U0Dfsu8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reza\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

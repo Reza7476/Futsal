@@ -76,40 +76,43 @@ public class PlayerAppService : PlayerServices
     public async Task<List<PlayerDto>?> GetByAgeFilter(FilterAgePlayerDto command)
     {
         var players = await _playerRepository.GetAll();
-
-
-
         List<PlayerDto> playerDtos = new();
-        foreach (var player in players)
-        {
 
-            var age = Age(player.BirthDate);
-            if (age >= command.StartAge && age < command.EndAge)
+        if (command.StartAge > 0 || command.EndAge > 0)
+        {
+            foreach (var player in players)
+            {
+                var age = Age(player.BirthDate);
+                if (age >= command.StartAge && age < command.EndAge)
+                {
+                    PlayerDto playerDto = new PlayerDto()
+                    {
+                        Id = player.Id,
+                        Name = player.Name,
+                        BirthDate = player.BirthDate,
+                        PlayerRole = player.Role,
+                        TeamId=player.TeamId
+                    };
+                    playerDtos.Add(playerDto);
+                }
+            }
+        }
+        else
+        {
+            foreach (var player in players)
             {
                 PlayerDto playerDto = new PlayerDto()
                 {
                     Id = player.Id,
                     Name = player.Name,
                     BirthDate = player.BirthDate,
-                    PlayerRole = player.Role
+                    PlayerRole = player.Role,
+                    TeamId=player.TeamId
                 };
                 playerDtos.Add(playerDto);
-
             }
-
         }
-
         return playerDtos;
-    }
-
-
-
-
-    public int Age(DateTime playerBirth)
-    {
-        TimeSpan a = DateTime.Now - playerBirth;
-        int age = (int)(a.TotalDays) / 365;
-        return age;
     }
 
     public async Task AddPlayerToAteam(AddPlayerToTeamDto command)
@@ -141,5 +144,11 @@ public class PlayerAppService : PlayerServices
         await _unitOfWork.Complete();
 
 
+    }
+    public int Age(DateTime playerBirth)
+    {
+        TimeSpan a = DateTime.Now - playerBirth;
+        int age = (int)(a.TotalDays) / 365;
+        return age;
     }
 }

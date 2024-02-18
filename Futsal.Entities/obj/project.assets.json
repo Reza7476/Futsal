@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
       "projectName": "Futsal.Entities",
-      "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+      "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
       "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\1111\\Futsal\\Futsal.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",

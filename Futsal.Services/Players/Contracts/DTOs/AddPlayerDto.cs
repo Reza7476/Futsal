@@ -31,7 +31,7 @@ public class PlayerDto
     public string Name { get; set; }
     public DateTime BirthDate { get; set; }
     public PlayerRole PlayerRole { get; set; }
-    public int TeamId { get; set; }
+    public int? TeamId { get; set; }
 }
 public class FilterAgePlayerDto
 {
