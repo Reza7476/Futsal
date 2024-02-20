@@ -1,5 +1,6 @@
 ﻿using Futsal.Entities.Teams;
 using Futsal.Services.Teams.Contracts;
+using Futsal.Services.Teams.Contracts.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -19,36 +20,75 @@ public class EFTeamRepository : TeamRepository
 
     public void Add(Team team)
     {
-       _db.Teams.Add(team);
+        _db.Teams.Add(team);
     }
 
     public void Delete(Team team)
     {
-     _db.Teams.Remove(team);
+        _db.Teams.Remove(team);
     }
 
     public void Edit(Team team)
     {
-       _db.Teams.Update(team);
+        _db.Teams.Update(team);
     }
 
-    public async Task<bool> ExistTeamForEdit(string currentName, string newName)
+
+    public async Task<bool> ExistTeamExceptItsSelf(int id, string Name)
     {
-       return await _db.Teams.AnyAsync(t=>t.Name!=currentName && t.Name==newName);
+        return await _db.Teams.AnyAsync(t => t.Id != id && t.Name == Name);
     }
 
-    public async Task<List<Team>> GetAll()
+    //public async Task<List<TeamDto>> GetAll()
+    //{
+    //    var teams = await _db.Teams
+    //       .Include(t => t.Players)
+          
+    //       .Select(_ => new TeamDto()
+    //       {
+    //           Id = _.Id,
+    //           Name = _.Name,
+    //           ColorDressOrigin = _.ColorDressNormal,
+    //           ColorDressNormal = _.ColorDressOrigin
+    //       }).ToListAsync();
+    //    return teams;
+
+
+
+    //}
+
+    public async Task<List<TeamDto>?> Get(Expression<Func<Team, bool>> where)
     {
-       return await _db.Teams.Include(x=>x.Players).ToListAsync();
+        var teams = await _db.Teams
+            .Include(t => t.Players)
+            .Where(where)
+            .Select(_ => new TeamDto()
+            {
+                Id = _.Id,
+                Name = _.Name,
+                ColorDressOrigin = _.ColorDressNormal,
+                ColorDressNormal = _.ColorDressOrigin
+            }).ToListAsync();
+        return teams;
+
     }
 
-    public async Task<List<Team>?> GetByFilter(Expression<Func<Team, bool>> where)
-    {
-        return await _db.Teams
-            //.Include(x => x.Players)
-            .Where(where).ToListAsync();
-       
-    }
+
+    //public async Task<List<TeamDto>?> GetByFilter(Expression<Func<Team, bool>> where)
+    //{
+    //    var teams = await _db.Teams
+    //        .Include(t => t.Players)
+    //        .Where(where)
+    //        .Select(_ => new TeamDto()
+    //        {
+    //            Id = _.Id,
+    //            Name = _.Name,
+    //            ColorDressOrigin = _.ColorDressNormal,
+    //            ColorDressNormal = _.ColorDressOrigin
+    //        }).ToListAsync();
+    //    return teams;
+
+    //}
 
     public async Task<Team?> GetById(int id)
     {

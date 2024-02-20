@@ -1,4 +1,5 @@
 ﻿using Futsal.Entities.Players;
+using Futsal.Services.Players.Contracts.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,10 +15,13 @@ public interface PlayerRepository
     void Edit(Player player); 
     void Delete(Player player);
 
-    Task<bool> ExistPlayerForEdit(string curreName, string newName);
+    Task<bool> ExistPlayerExceptItsSelf(int id, string name);
+ 
+    
     Task<bool> IsExist(string name);
-    Task<Player?> GetById(int id);
-    Task<List<Player>> GetAll();
 
-    Task<List<Player>?> GetTeamPlayersByFilter(Expression<Func<Player, bool>> where);  
+    Task<bool> HasPlayerATeam(int id);
+    Task<Player?> GetById(int id);
+    Task<List<PlayerDto>?> Get(FilterAgePlayerDto query);
+    Task<List<Player>>GetBySpecification(Expression<Func<Player, bool>> where); 
 }

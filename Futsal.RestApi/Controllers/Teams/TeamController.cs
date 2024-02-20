@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Futsal.RestApi.Controllers.Teams;
-[Route("api/teams")]
+[Route("api/[controller]")]
 [ApiController]
 public class TeamController : ControllerBase
 {
@@ -31,7 +31,7 @@ public class TeamController : ControllerBase
         await _teamService.Delete(id);
     }
     [HttpGet]
-    public async Task <List<TeamDto>> GetByFilter([FromQuery]TeamFilterDto command)
+    public async Task <List<TeamDto>?> GetByFilter([FromQuery]TeamFilterDto command)
     {
         return await _teamService.GetByFilter(command);
     }

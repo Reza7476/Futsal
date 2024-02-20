@@ -1,7 +1,9 @@
 ﻿using Futsal.Entities.Players;
 using Futsal.Services.Players.Contracts;
 using Futsal.Services.Players.Contracts.DTOs;
+using Futsal.Services.Players.Exceptions;
 using Futsal.Services.Teams.Contracts;
+using Futsal.Services.Teams.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +33,7 @@ public class PlayerAppService : PlayerServices
     {
         var player = await _playerRepository.IsExist(command.Name);
         if (player == true)
-            throw new Exception("player is exist");
+            throw new PlayerIsExist();
 
         var newPlayer = new Player()
         {
@@ -50,7 +52,7 @@ public class PlayerAppService : PlayerServices
     {
         var player = await _playerRepository.GetById(id);
         if (player == null)
-            throw new Exception("player not found");
+            throw new PlayerNotFound();
 
         _playerRepository.Delete(player);
         await _unitOfWork.Complete();
@@ -60,11 +62,10 @@ public class PlayerAppService : PlayerServices
     {
         var player = await _playerRepository.GetById(id);
         if (player == null)
-            throw new Exception("player not found");
-
-
-        var checkName = await _playerRepository.ExistPlayerForEdit(player.Name, command.Name);
-        if (checkName == true) throw new Exception("player is exist");
+            throw new PlayerNotFound();
+        var checkName = await _playerRepository.ExistPlayerExceptItsSelf(id, command.Name);
+        if (checkName == true)
+            throw new PlayerIsExist();
         player.Name = command.Name;
         player.BirthDate = command.BirthDate;
         player.Role = command.PlayerRole;
@@ -73,82 +74,50 @@ public class PlayerAppService : PlayerServices
 
     }
 
-    public async Task<List<PlayerDto>?> GetByAgeFilter(FilterAgePlayerDto command)
+    public async Task<List<PlayerDto>?> GetByAgeFilter(FilterAgePlayerDto query)
     {
-        var players = await _playerRepository.GetAll();
-        List<PlayerDto> playerDtos = new();
+        var players = await _playerRepository.Get(query);
+        return players;
+    }
 
-        if (command.StartAge > 0 || command.EndAge > 0)
+    public async Task AddPlayerToAteam(int playerId, int teamId)
+    {
+        var team = await _teamRepository.GetById(teamId);
+        if (team == null)
+            throw new TeamNotFound();
+        var player = await _playerRepository.GetById(playerId);
+        if (player == null)
+            throw new PlayerNotFound();
+
+        var checkPlayerHasTeam = await _playerRepository.HasPlayerATeam(playerId);
+        if (checkPlayerHasTeam == true)
+            throw new PlayerHasTeam();
+
+        var teamPlayers = await _playerRepository.GetBySpecification(x => x.TeamId == teamId);
+        if (teamPlayers.Count() >= 5)
+            throw new TeamCloesd();
+        var keepGolerIsExist = teamPlayers.Any(x => x.Role == PlayerRole.KeepGoler);
+
+        var plyerIsExist = teamPlayers.Any(x => x.TeamId == teamId);
+        if (teamPlayers.Count() < 4)
         {
-            foreach (var player in players)
-            {
-                var age = Age(player.BirthDate);
-                if (age >= command.StartAge && age < command.EndAge)
-                {
-                    PlayerDto playerDto = new PlayerDto()
-                    {
-                        Id = player.Id,
-                        Name = player.Name,
-                        BirthDate = player.BirthDate,
-                        PlayerRole = player.Role,
-                        TeamId=player.TeamId
-                    };
-                    playerDtos.Add(playerDto);
-                }
-            }
+            if (keepGolerIsExist == true && player.Role == PlayerRole.KeepGoler)
+                throw new TeamHasGolKeeper();
+            player.TeamId = team.Id;
+            await _unitOfWork.Complete();
         }
         else
         {
-            foreach (var player in players)
-            {
-                PlayerDto playerDto = new PlayerDto()
-                {
-                    Id = player.Id,
-                    Name = player.Name,
-                    BirthDate = player.BirthDate,
-                    PlayerRole = player.Role,
-                    TeamId=player.TeamId
-                };
-                playerDtos.Add(playerDto);
-            }
+            if (keepGolerIsExist == false && player.Role != PlayerRole.KeepGoler)
+                throw new TeamNeedsKeepGoler();
+            player.TeamId = team.Id;
+            await _unitOfWork.Complete();
+
         }
-        return playerDtos;
-    }
-
-    public async Task AddPlayerToAteam(AddPlayerToTeamDto command)
-    {
-        var team = await _teamRepository.GetById(command.TeamId);
-
-        if (team == null)
-            throw new Exception("team not found");
-
-        var player = await _playerRepository.GetById(command.PlayerId);
-
-        if (player == null)
-
-            throw new Exception("player not found");
-        var teamPlayers = await _playerRepository.GetTeamPlayersByFilter(x => x.TeamId == command.TeamId);
 
 
-        if (teamPlayers.Count() >= 5)
-            throw new Exception("team closed");
-
-        if (player.Role == PlayerRole.KeepGoler)
-        {
-            if (teamPlayers.Where(x => x.Role == PlayerRole.KeepGoler).Count() >= 1)
-                throw new Exception("team has keepGoler");
-            player.TeamId = command.TeamId;
-        }
-        player.TeamId = command.TeamId;
-
-        await _unitOfWork.Complete();
 
 
     }
-    public int Age(DateTime playerBirth)
-    {
-        TimeSpan a = DateTime.Now - playerBirth;
-        int age = (int)(a.TotalDays) / 365;
-        return age;
-    }
+
 }
