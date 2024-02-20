@@ -1,4 +1,5 @@
 ﻿using Futsal.Entities.Teams;
+using Futsal.Services.Teams.Contracts.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,19 +12,13 @@ public interface TeamRepository
 {
 
     void Add(Team team);
-
-
     void Edit(Team team);
     void Delete(Team team);
 
 
-    Task<List<Team>?> GetByFilter(Expression<Func<Team, bool>> where);
-
-    Task<List<Team>> GetAll();
-
     Task <Team?> GetById(int id);    
-
-
+    Task<List<TeamDto>?> Get(Expression<Func<Team, bool>> where);
     Task<bool> IsTeamExist(string name);
-    Task<bool> ExistTeamForEdit(string currentName, string newName);
+    Task<bool> ExistTeamExceptItsSelf(int id, string Name);
+
 }

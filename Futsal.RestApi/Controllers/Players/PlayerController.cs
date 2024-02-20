@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Futsal.RestApi.Controllers.Players;
-[Route("api/players")]
+[Route("api/[controller]")]
 [ApiController]
 public class PlayerController : ControllerBase
 {
@@ -35,9 +35,9 @@ public class PlayerController : ControllerBase
     {
         return await _plyareService.GetByAgeFilter(command);
     }
-    [HttpPatch]
-    public async Task MentionPlayerToATeam(AddPlayerToTeamDto command)
+    [HttpPatch("{id}/teams{teamId}")]
+    public async Task MentionPlayerToATeam([FromRoute]int id,[FromRoute]int teamId)
     {
-        await _plyareService.AddPlayerToAteam(command);
+        await _plyareService.AddPlayerToAteam(id,teamId);
     }
 }
