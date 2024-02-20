@@ -3722,11 +3722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
       "projectName": "Futsal.RestApi",
-      "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+      "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
       "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.RestApi\\obj\\",
+      "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.RestApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3744,8 +3744,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
-              "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
+            "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
+              "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
             }
           }
         }

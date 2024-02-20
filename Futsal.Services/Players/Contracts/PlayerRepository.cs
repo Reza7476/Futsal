@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,4 +17,7 @@ public interface PlayerRepository
     Task<bool> ExistPlayerForEdit(string curreName, string newName);
     Task<bool> IsExist(string name);
     Task<Player?> GetById(int id);
+    Task<List<Player>> GetAll();
+
+    Task<List<Player>?> GetTeamPlayersByFilter(Expression<Func<Player, bool>> where);  
 }

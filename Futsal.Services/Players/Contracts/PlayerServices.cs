@@ -13,6 +13,6 @@ public  interface PlayerServices
     Task Delete(int id);
 
 
-
-
+    Task<List<PlayerDto>?> GetByAgeFilter(FilterAgePlayerDto command);
+    Task AddPlayerToAteam(AddPlayerToTeamDto command);
 }

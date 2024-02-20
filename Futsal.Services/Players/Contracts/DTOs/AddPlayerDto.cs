@@ -31,5 +31,16 @@ public class PlayerDto
     public string Name { get; set; }
     public DateTime BirthDate { get; set; }
     public PlayerRole PlayerRole { get; set; }
+    public int? TeamId { get; set; }
+}
+public class FilterAgePlayerDto
+{
+    public int StartAge { get; set; }
+    public int EndAge { get; set; }
+}
+
+public class AddPlayerToTeamDto
+{
     public int TeamId { get; set; }
+    public int PlayerId { get; set; }
 }

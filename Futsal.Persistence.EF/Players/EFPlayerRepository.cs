@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -51,5 +52,13 @@ public class EFPlayerRepository : PlayerRepository
     public async Task<List<Player>> GetAll()
     {
       return await _db.Players.ToListAsync();
+    }
+
+    public async Task<List<Player>?> GetTeamPlayersByFilter(Expression<Func<Player, bool>> where)
+    {
+        return await _db.Players
+            .Include(x=>x.Team)
+            .Where(where)
+            .ToListAsync();
     }
 }

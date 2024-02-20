@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DcTPfkA1es+Vfe1XpmM1zorVs7pfsHtWMwHx1+6EHHe28TIXsXCEBHs/SjkH/x5s01eAbRXjxq7jvOWsJqiatg==",
+  "dgSpecHash": "6WCLwK83vxH8kWin5yfqjtoTSYW4ipwg0VxQKuKnIGbetYJ6GcmgsQ/Y2COwb+dtxvUCWO/ICjxyyKatMu4Bog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\Futsal\\Futsal.Migrations\\Futsal.Migrations.csproj",
+  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal.Migrations\\Futsal.Migrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reza\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
