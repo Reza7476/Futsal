@@ -3564,11 +3564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
       "projectName": "Futsal.Persistence.EF",
-      "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+      "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
       "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\obj\\",
+      "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3585,8 +3585,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
-              "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj"
+            "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
+              "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj"
             }
           }
         }
@@ -3623,12 +3623,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.26, 6.0.26]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

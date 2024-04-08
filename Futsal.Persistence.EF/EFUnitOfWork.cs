@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Taav.Contarcts;
+using Taav.Contarcts.Interfaces;
 
 namespace Futsal.Persistence.EF;
 public class EFUnitOfWork : UnitOfWork

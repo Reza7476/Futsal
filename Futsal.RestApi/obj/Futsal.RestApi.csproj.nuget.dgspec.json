@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {}
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
         "projectName": "Futsal.Entities",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,23 +50,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
         "projectName": "Futsal.Persistence.EF",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj"
+              "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj"
               }
             }
           }
@@ -121,23 +135,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
         "projectName": "Futsal.RestApi",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.RestApi\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,15 +176,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
+              "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
               }
             }
           }
@@ -171,6 +198,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -187,6 +222,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -195,18 +248,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
         "projectName": "Futsal.Services",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\Futsal.Services.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Services\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,11 +276,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj"
+              "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj"
               },
-              "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
-                "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj"
+              "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
+                "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj"
               }
             }
           }
@@ -252,23 +305,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "projectName": "Taav.Contarcts",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -307,12 +374,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
