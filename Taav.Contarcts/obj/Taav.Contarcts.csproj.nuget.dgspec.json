@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {}
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
+    "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "projectName": "Taav.Contarcts",
-        "projectPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+        "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
         "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\obj\\",
+        "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,12 +50,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,9 +6,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Taav.Contarcts.Interfaces;
 
 namespace Futsal.Services.Teams.Contracts;
-public interface TeamRepository
+public interface TeamRepository:Repository
 {
 
     void Add(Team team);

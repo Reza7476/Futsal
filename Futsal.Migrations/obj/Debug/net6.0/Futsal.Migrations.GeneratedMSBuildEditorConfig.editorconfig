@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Futsal.Migrations
-build_property.ProjectDir = C:\Users\Reza\Desktop\FutsalManagment\3333\Futsal\Futsal.Migrations\
+build_property.ProjectDir = C:\Users\Reza\Desktop\Futsal\Futsal\Futsal.Migrations\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

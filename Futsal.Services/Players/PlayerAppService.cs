@@ -10,7 +10,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using Taav.Contarcts;
+using Taav.Contarcts.Interfaces;
 
 namespace Futsal.Services.Players;
 public class PlayerAppService : PlayerServices

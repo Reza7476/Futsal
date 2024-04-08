@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Taav.Contarcts;
+namespace Taav.Contarcts.Interfaces;
 public interface UnitOfWork
 {
 

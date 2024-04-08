@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "u4wRN11HJUuEXTn+2kjijdksoflF7MczsQ9dlI5f2qbrzM9faKMFpen1rrEBBss7KxzdSyZ2j/VYpEVufE+V0g==",
+  "dgSpecHash": "JUUgMus9CRiNY5SCEWYJKggM7hJDeGB3uuBODr9Os2koRc8eDlwu83F99HTUeXQmTil7FvGXGJ8PzkDD43HYdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

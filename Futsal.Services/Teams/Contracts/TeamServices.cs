@@ -5,9 +5,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taav.Contarcts.Interfaces;
 
 namespace Futsal.Services.Teams.Contracts;
-public interface TeamServices
+public interface TeamServices:Service
 {
 
     Task Add(AddTeamDto command);

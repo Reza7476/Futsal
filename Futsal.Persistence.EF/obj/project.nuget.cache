@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JeHDSF7f1Brvqui2nSeWryDS/6siKfWPHZeiMJPvbquhLA2/kFmTzHH71I3Qrh9uRljb6KcS7/sD1axjsSIs+Q==",
+  "dgSpecHash": "TO5Lnb0MxhwD2WY/AU8l3izlpwc+tqzMS9KUAZq+a3uJefQkiYo9nqR6+mIBE1dh4EvpzreiI0yxYlZ7xoY8Wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
+  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reza\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -71,7 +71,10 @@
     "C:\\Users\\Reza\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Reza\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\Reza\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

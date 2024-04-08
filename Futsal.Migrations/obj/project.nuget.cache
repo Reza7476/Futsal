@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pWz+bunO2K77jYxXrdAsNEyZRGI8MKmOR6SLmZEKiUZ+5TFf8hvDaTsKk0EzJDNVd/B1M+RiI+6V0SxofV65Yg==",
+  "dgSpecHash": "iWh4psNZHLoWiTJ0OXqzWFjNQJ3oe2oDeGhpe2mEWlVly8R95DHEb3TeHnX2Rb4uD3IFe87Z12trqFzxSAGIzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\FutsalManagment\\3333\\Futsal\\Futsal.Migrations\\Futsal.Migrations.csproj",
+  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Migrations\\Futsal.Migrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Reza\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -72,7 +72,11 @@
     "C:\\Users\\Reza\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Reza\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\Reza\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\Reza\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
   ],
   "logs": []
 }

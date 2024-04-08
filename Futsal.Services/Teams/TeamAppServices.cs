@@ -8,7 +8,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Taav.Contarcts;
+using Taav.Contarcts.Interfaces;
 
 namespace Futsal.Services.Teams;
 public class TeamAppServices : TeamServices
