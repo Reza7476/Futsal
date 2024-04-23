@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JUUgMus9CRiNY5SCEWYJKggM7hJDeGB3uuBODr9Os2koRc8eDlwu83F99HTUeXQmTil7FvGXGJ8PzkDD43HYdg==",
+  "dgSpecHash": "TmGIujd0ot3GnaMhZHzQffimX2VqhFYfH+vZJm+JN4VeNgicnaUaF9nETYJN/1alORftvdM3DTPuLguL/YTPpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
+  "projectFilePath": "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Taav.Contarcts\\Taav.Contarcts.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

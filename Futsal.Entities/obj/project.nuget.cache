@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9G4ZwHbF5uojws2By3Dp1F6hmAlksYi95ff2+OgGuh1qRUsxNl3GXWkxojMZD5FQnvLFdse0knBBAkyQA+7OzA==",
+  "dgSpecHash": "fVkI3WIszGqz2G7+QC/alo65pzbedwnhu9efxer2jxQ7fv9wH+5jNFPnfpoyNtnSkUjqOfeRpXdPw4siW7x+eQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
+  "projectFilePath": "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Futsal.Entities\\Futsal.Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\Reza\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }

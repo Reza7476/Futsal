@@ -3787,19 +3787,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Reza\\.nuget\\packages\\": {}
+    "C:\\Users\\R.dehghani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+      "projectUniqueName": "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
       "projectName": "Futsal.RestApi",
-      "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
-      "packagesPath": "C:\\Users\\Reza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.RestApi\\obj\\",
+      "projectPath": "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Futsal.RestApi\\Futsal.RestApi.csproj",
+      "packagesPath": "C:\\Users\\R.dehghani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Futsal.RestApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\R.dehghani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3807,14 +3807,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\sdk\\7.0.311\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://azure.taavserver.ir/Taav/ERP/_packaging/Angular/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
-              "projectPath": "C:\\Users\\Reza\\Desktop\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
+            "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj": {
+              "projectPath": "C:\\Users\\R.dehghani\\Desktop\\RezaTest\\Futsal\\Futsal\\Futsal.Persistence.EF\\Futsal.Persistence.EF.csproj"
             }
           }
         }
@@ -3856,19 +3858,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.25, 6.0.25]"
           }
         ],
         "frameworkReferences": {
@@ -3879,7 +3881,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
       }
     }
   }
